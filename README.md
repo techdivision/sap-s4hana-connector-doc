@@ -10,6 +10,10 @@ customers. It also includes onboarding scripts and a standardized architecture f
 practices.
 ![Alt text](docs/diagram.png "Diagram")
 
+## EULA
+
+Please refer to [EULA.pdf](EULA.pdf).
+
 ## Features
 
 ### Use Cases
