@@ -1,4 +1,4 @@
-# Adobe Commerce Connector SAP S/4 Hana Connector®
+# Adobe Commerce Connector SAP S/4 HANA® by TechDivision
 
 [![Node.js CI](https://github.com/techdivision/sap-s4hana-connector/actions/workflows/deploy_node_stage.yml/badge.svg)](https://github.com/techdivision/sap-s4hana-connector/actions/workflows/deploy_node_stage.yml)
 
