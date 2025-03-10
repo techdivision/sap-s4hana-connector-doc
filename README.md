@@ -1,8 +1,8 @@
-# SAP S/4 Hana Connector
+# Adobe Commerce Connector SAP S/4 Hana Connector®
 
 [![Node.js CI](https://github.com/techdivision/sap-s4hana-connector/actions/workflows/deploy_node_stage.yml/badge.svg)](https://github.com/techdivision/sap-s4hana-connector/actions/workflows/deploy_node_stage.yml)
 
-Welcome to Adobe Commerce & SAP S/4HANA accelerator
+Welcome to Adobe Commerce accelerator for SAP S/4HANA®
 
 This integration accelerator includes reference integrations for commonly used data flows data like orders, products,
 and
@@ -20,7 +20,7 @@ Please refer to [EULA.pdf](EULA.pdf).
 
 The use cases demonstrate the feature set this connector is supporting. It is currently using a generic and very basic
 data mapping
-to transform the entities between Adobe Commerce and SAP S/4HANA. In every project the data attributes are very specific
+to transform the entities between Adobe Commerce and SAP S/4HANA®. In every project the data attributes are very specific
 on both
 systems, therefore a more detailed data mapping should be done.
 
@@ -57,7 +57,7 @@ In bidirectional integrations, an infinite loop can occur when an event triggere
 another system, which in turn triggers the same event back in the original system. This loop can continue indefinitely,
 leading to excessive resource consumption and potential system failures.
 
-To prevent infinite loops, the SAP S/4HANA Connector includes a mechanism that allows you to define a list of events
+To prevent infinite loops, the connector includes a mechanism that allows you to define a list of events
 that could potentially trigger an infinite loop. When an event is triggered, the system checks if the event fingerprint
 exists in the state-lib storage. If the fingerprint exists, the event is ignored. If the fingerprint does not exist, the
 event is processed and the fingerprint is stored in the state-lib storage.
@@ -125,7 +125,7 @@ this [documentation](https://developer.adobe.com/commerce/extensibility/events/i
 > By upgrading the Adobe I/O Events for Adobe Commerce module to version 1.6.0 or greater, you will benefit from some
 > additional automated steps during onboarding.
 
-## SAP S/4HANA Connector deploy & onboarding
+## Deployment & onboarding
 
 Following the next steps, you will deploy and onboard the SAP S/4 Hana Connector for the first time. The onboarding
 process sets up
@@ -175,7 +175,7 @@ npm install
    `npx generate-odata-client -c service-specifications/generator-config.json`
    to generate the service classes
 
-This step will connect your SAP S/4 Hana Connector project to the App builder project you created earlier.
+This step will connect your connector project to the App builder project you created earlier.
 Ensure to select the proper Organization > Project > Workspace with the following commands:
 
 ```bash
@@ -201,7 +201,7 @@ aio app deploy
 
 ### Onboarding
 
-This step will generate the IO Events providers and the registrations for your SAP S/4 Hana Connector project.
+This step will generate the IO Events providers and the registrations for your connector project.
 If your Commerce instance Adobe I/O Events for Adobe Commerce module version 1.6.0 or greater, the module will also be
 automatically configured by the onboarding script.
 To start the process run the command:
